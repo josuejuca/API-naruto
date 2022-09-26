@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.openapi.utils import get_openapi
-import naruto
+import naruto as n
 
 app = FastAPI()
 
@@ -63,7 +63,7 @@ def anime(id_anime: str):
 def pegar_ep(id_anime: str, id_ep):
     if id_anime == 'naruto':
         if id_ep == 'list':
-            return naruto.naruto
-        return naruto.naruto[id_ep]
+            return n.naruto
+        return n.naruto[id_ep]
     else:
         return {"Erro": "ID inexistente"}
