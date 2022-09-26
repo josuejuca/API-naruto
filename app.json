@@ -1,6 +1,6 @@
 {
   "name": "API-Naruto",
-  "description": "Anime Streaming, Discovery API made with Cheerio and Express. Uses data from PlayAnimes",
+  "description": "Uma API de streaming de anime gratuita do Play Animes",
   "keywords": [
     "anime",
     "streaming",
