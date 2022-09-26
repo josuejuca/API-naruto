@@ -1,0 +1,23 @@
+{
+  "name": "API-Naruto",
+  "description": "Anime Streaming, Discovery API made with Cheerio and Express. Uses data from PlayAnimes",
+  "keywords": [
+    "anime",
+    "streaming",
+    "discovery",
+    "api",
+    "playanimes"
+  ],
+  "website": "https://github.com/josuejuca/API-naruto#readme",
+  "repository": "https://github.com/josuejuca/API-naruto/",
+  "logo": "https://assets-juca.netlify.app/img/playanimes/anime/capa/naruto/a0008.jpg",
+  
+  "env": {
+        "PORT": {
+            "description": "Set PORT for the express application to run on.",
+            "value": "8000"
+        }
+    },
+    "image": "heroku/python",
+    "stack": "heroku-20"
+}
